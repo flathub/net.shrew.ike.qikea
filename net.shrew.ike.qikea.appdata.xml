@@ -12,12 +12,12 @@
     <category>Network</category>
   </categories>
   <description>
+    <p>**NOTE: This wrapper is not verified by, affiliated with, or supported by Shrew Soft, Inc.**</p>
     <p>Import, export or modify your vpn sites backed by iked daemon</p>
     <p>Warning: Just a frontend for managing connections. You must run iked daemon on the background before using</p>
     <ul>
       <li>Get iked daemon on DockerHub at: https://hub.docker.com/r/beardoverflow/ike</li>
     </ul>
-    <p>Disclaimer: This wrapper is not verified by, affiliated with, or supported by Shrew Soft, Inc.</p>
   </description>
   <content_rating type="oars-1.0" />
   <screenshots>
