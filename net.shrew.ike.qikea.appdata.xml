@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop">
+<component type="desktop-application">
   <id>net.shrew.ike.qikea</id>
   <name>Shrew Soft VPN Access Manager</name>
   <summary>Application to manage remote site configurations</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary</project_license>
-  <developer_name>Shrew Soft, Inc.</developer_name>
+  <developer id="net.shrew">
+    <name>Shrew Soft, Inc.</name>
+  </developer>
   <url type="homepage">https://www.shrew.net/download/ike</url>
   <url type="faq">https://github.com/BeardOverflow/flathub/blob/net.shrew.ike.qikea/README.md</url>
+  <launchable type="desktop-id">net.shrew.ike.qikea.desktop</launchable>
   <categories>
     <category>Network</category>
   </categories>
@@ -15,9 +18,7 @@
     <p>**NOTE: This wrapper is not verified by, affiliated with, or supported by Shrew Soft, Inc.**</p>
     <p>Import, export or modify your vpn sites backed by iked daemon</p>
     <p>Warning: Just a frontend for managing connections. You must run iked daemon on the background before using</p>
-    <ul>
-      <li>Get iked daemon on DockerHub at: https://hub.docker.com/r/beardoverflow/ike</li>
-    </ul>
+    <p>Get iked daemon on DockerHub</p>
   </description>
   <content_rating type="oars-1.0" />
   <screenshots>
